@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.11)
 project(function)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CXXFLAGS "-Wall -Werror -Wextra -pedantic")
+set(CMAKE_CXX_COMPILE_FEATURES)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 enable_testing()
