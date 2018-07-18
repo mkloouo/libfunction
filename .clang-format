@@ -1,0 +1,35 @@
+# Language specific
+Language: Cpp
+Standard: Cpp11
+
+# Indentation specific
+UseTab: Always
+TabWidth: 4
+IndentWidth: 4
+ColumnLimit: 80
+
+IndentCaseLabels: true
+IndentPPDirectives: AfterHash
+
+NamespaceIndentation: All
+
+# Empty lines specific
+MaxEmptyLinesToKeep: 1
+
+# Structures specific
+AccessModifierOffset: -4
+
+# Pointers specific
+PointerAlignment: Left
+DerivePointerAlignment: false
+
+# Short expressions specific
+AllowShortBlocksOnASingleLine: true
+AllowShortFunctionsOnASingleLine: true
+
+# Namespaces specific
+FixNamespaceComments: true
+
+# Templates specific
+SpaceAfterTemplateKeyword: true
+AlwaysBreakTemplateDeclarations: true
