@@ -1,8 +1,8 @@
 #ifndef __TESTFUNCTION_H__
 #define __TESTFUNCTION_H__
 
-#include "gtest/gtest.h"
 #include "function.h"
+#include "gtest/gtest.h"
 
 using my::function;
 

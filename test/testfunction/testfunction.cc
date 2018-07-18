@@ -6,7 +6,7 @@ using SimpleIntFunction = int(void);
 namespace {
 	void foo(void);
 	int bar(void);
-}
+} // namespace
 
 TEST(MyFunction, Constructor_WithoutArguments_Works) {
 	function<SimpleFunction> f;

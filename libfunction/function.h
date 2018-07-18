@@ -5,17 +5,15 @@ namespace my {
 	template <typename T>
 	class function;
 
-	template <typename ReturnType, typename ... Args>
+	template <typename ReturnType, typename... Args>
 	class function<ReturnType(Args...)> {
-		public:
+	public:
 		function() {}
 
 		template <typename Function>
 		function(Function f) {}
-
-		ReturnType operator()(Args ... args) {}
-
+		ReturnType operator()(Args... args) {}
 	};
-}
+} // namespace my
 
 #endif // __LIBFUNCTION_FUNCTION_H__
